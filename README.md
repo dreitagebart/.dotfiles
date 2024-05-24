@@ -14,7 +14,7 @@
   brew install zsh
   ```
 
-- [oh-my-zsh](https://ohmyz.sh) - Delightful, open source, community-driven framework for managing your Zsh configuration
+- [oh-my-zsh](https://ohmyz.sh) - Delightful, open source, community-driven framework for managing your zsh configuration
 
   ```
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -30,6 +30,18 @@
 
   ```
   brew install thefuck
+  ```
+
+- [bat](https://github.com/sharkdp/bat) - A cat(1) clone with wings
+
+  ```
+  brew install bat
+  ```
+
+- [fd](https://github.com/sharkdp/fd) - A simple, fast and user-friendly alternative to 'find'
+
+  ```
+  brew install fd
   ```
 
 - [eza](https://github.com/eza-community/eza) - Modern, maintained replacement for ls
