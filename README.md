@@ -1,5 +1,11 @@
 # Installation instructions
 
+Clone this repo with following command:
+
+```
+git clone https://github.com/dreitagebart/.dotfiles.git ~/.dotfiles
+```
+
 ## Command line tools
 
 - [Homebrew](https://brew.sh) - The Missing Package Manager for macOS (or Linux)
@@ -107,3 +113,13 @@
   ```
   npm install -g yarn
   ```
+
+## post installation steps
+
+After installation of all that stuff add following lines at the end of your `~/.zshrc` file:
+
+```
+source $HOME/.dreitagebart/.aliasrc
+source $HOME/.dreitagebart/.configrc
+source $HOME/.dreitagebart/.evalrc
+```
