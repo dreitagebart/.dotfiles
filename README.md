@@ -6,6 +6,14 @@ Clone this repo with following command:
 git clone https://github.com/dreitagebart/.dotfiles.git ~/.dotfiles
 ```
 
+Depending on the situation (maybe you will have already existing configurations) you need to manually copy and paste this stuff. Copy all the files to the right destination with these commands:
+
+```
+cp -r ~/.dotfiles/.dreitagebart ~
+cp -r ~/.dotfiles/.config ~
+cp ~/.dotfiles ~/.tmux.conf
+```
+
 ## Command line tools
 
 - [Homebrew](https://brew.sh) - The Missing Package Manager for macOS (or Linux)
@@ -114,7 +122,7 @@ git clone https://github.com/dreitagebart/.dotfiles.git ~/.dotfiles
   npm install -g yarn
   ```
 
-## post installation steps
+## Post installation steps
 
 After installation of all that stuff add following lines at the end of your `~/.zshrc` file:
 
