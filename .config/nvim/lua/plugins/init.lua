@@ -1,5 +1,8 @@
 return {
   {
+    "lambdalisue/suda.vim", lazy = false
+  },
+  {
     "stevearc/conform.nvim",
     -- event = 'BufWritePre', -- uncomment for format on save
     config = function()
